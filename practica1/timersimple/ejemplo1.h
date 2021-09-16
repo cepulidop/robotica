@@ -14,21 +14,14 @@ public:
 
     virtual ~ejemplo1();
 
-    void changePeriodT(int period);
-
-    int currentPeriodT();
-
-    int totalPeriodT();
-
 public slots:
-
-    void doTotalPeriod();
-
-    void doCurrentPeriod();
-
     void doButton();
-
     void doReset();
+
+    void doChangePeriod();
+    void doCurrentPeriod();
+    void doTotalTime();
+    void doLapTime();
 
 private:
     Timer mytimer, mytimerLong;
@@ -38,6 +31,7 @@ private:
     // dos callbacks con diferente número de parámetros
     void cuenta();
 
+//    void doPartialTime();
     int trick = 5;
 };
 

@@ -6,21 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/home/ruben/Escritorio/Robotica/robotica/timersimple/ejemplo1.cpp
-ejemplo1.h
-/home/ruben/Escritorio/Robotica/robotica/timersimple/ejemplo1.h
+/home/ruben/Escritorio/Robotica/robotica/practica1/timersimple/cmake-build-debug/moc_ejemplo1.cpp
+../ejemplo1.h
+/home/ruben/Escritorio/Robotica/robotica/practica1/timersimple/ejemplo1.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
 
-/home/ruben/Escritorio/Robotica/robotica/timersimple/ejemplo1.h
+/home/ruben/Escritorio/Robotica/robotica/practica1/timersimple/ejemplo1.cpp
+ejemplo1.h
+/home/ruben/Escritorio/Robotica/robotica/practica1/timersimple/ejemplo1.h
+
+/home/ruben/Escritorio/Robotica/robotica/practica1/timersimple/ejemplo1.h
 QtGui
 -
 ui_counterDlg.h
-/home/ruben/Escritorio/Robotica/robotica/timersimple/ui_counterDlg.h
+/home/ruben/Escritorio/Robotica/robotica/practica1/timersimple/ui_counterDlg.h
 chrono
 -
 timer.h
-/home/ruben/Escritorio/Robotica/robotica/timersimple/timer.h
+/home/ruben/Escritorio/Robotica/robotica/practica1/timersimple/timer.h
 
-/home/ruben/Escritorio/Robotica/robotica/timersimple/timer.h
+/home/ruben/Escritorio/Robotica/robotica/practica1/timersimple/main.cpp
+QApplication
+-
+ejemplo1.h
+/home/ruben/Escritorio/Robotica/robotica/practica1/timersimple/ejemplo1.h
+
+/home/ruben/Escritorio/Robotica/robotica/practica1/timersimple/timer.h
 thread
 -
 chrono

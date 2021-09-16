@@ -28,12 +28,13 @@ public:
     QSpinBox *spinBox;
     QPushButton *pushButton_3;
     QPushButton *pushButton_4;
+    QPushButton *pushButton_5;
 
     void setupUi(QWidget *Counter)
     {
         if (Counter->objectName().isEmpty())
             Counter->setObjectName(QString::fromUtf8("Counter"));
-        Counter->resize(581, 369);
+        Counter->resize(590, 369);
         button = new QPushButton(Counter);
         button->setObjectName(QString::fromUtf8("button"));
         button->setGeometry(QRect(80, 180, 251, 71));
@@ -45,16 +46,22 @@ public:
         pushButton->setGeometry(QRect(80, 280, 251, 71));
         pushButton_2 = new QPushButton(Counter);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-        pushButton_2->setGeometry(QRect(370, 100, 131, 51));
+        pushButton_2->setGeometry(QRect(370, 90, 131, 51));
         spinBox = new QSpinBox(Counter);
         spinBox->setObjectName(QString::fromUtf8("spinBox"));
-        spinBox->setGeometry(QRect(510, 110, 71, 31));
+        spinBox->setGeometry(QRect(510, 100, 71, 31));
+        spinBox->setMinimum(1);
+        spinBox->setMaximum(50000);
+        spinBox->setValue(500);
         pushButton_3 = new QPushButton(Counter);
         pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
-        pushButton_3->setGeometry(QRect(370, 200, 131, 51));
+        pushButton_3->setGeometry(QRect(370, 160, 131, 51));
         pushButton_4 = new QPushButton(Counter);
         pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
-        pushButton_4->setGeometry(QRect(370, 300, 131, 51));
+        pushButton_4->setGeometry(QRect(370, 230, 131, 51));
+        pushButton_5 = new QPushButton(Counter);
+        pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
+        pushButton_5->setGeometry(QRect(370, 300, 131, 51));
 
         retranslateUi(Counter);
 
@@ -68,7 +75,8 @@ public:
         pushButton->setText(QApplication::translate("Counter", "RESET", nullptr));
         pushButton_2->setText(QApplication::translate("Counter", "Change period", nullptr));
         pushButton_3->setText(QApplication::translate("Counter", "View period", nullptr));
-        pushButton_4->setText(QApplication::translate("Counter", "Total period", nullptr));
+        pushButton_4->setText(QApplication::translate("Counter", "Total time", nullptr));
+        pushButton_5->setText(QApplication::translate("Counter", "Lap", nullptr));
     } // retranslateUi
 
 };
