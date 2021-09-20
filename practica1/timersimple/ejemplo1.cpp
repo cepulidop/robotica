@@ -44,10 +44,6 @@ void ejemplo1::doTotalTime() {
     qDebug("Total time is: %d",(cont));
 }
 
-//void ejemplo1::doPartialTime() {
-//    qDebug("Partial time is: %d",(cont - mytimer.getInit()));
-//}
-
 void ejemplo1::doLapTime() {
     qDebug("Lap: %d",(cont - mytimer.getInit()));
     mytimer.setInit(cont);
